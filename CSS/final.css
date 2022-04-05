@@ -21,7 +21,9 @@
     font-family: "raleway";
     text-decoration: none;
     }
-    
+main{
+    padding: 2%;
+}
     .slogan{
     display: flex;
     flex-direction: column;
@@ -81,7 +83,9 @@
     }
     
     /*HEADER*/
-    
+    header{
+        padding: 2%;
+    }
     .tete{
     display: flex;
     }
@@ -96,9 +100,7 @@
     color: black;
     }
     
-    header, .search{
-    padding-left: 2%;
-    }
+
     #formulaire{
     display: flex;
     align-items: center;
@@ -574,7 +576,9 @@
     padding: 0;
     font-family: "raleway";
     }
-    
+    main {
+        padding: 0%;
+     }
     header>h1{
     width: 70%;
     }
@@ -1114,6 +1118,10 @@
     margin: 0;
     padding: 0;
     font-family: "raleway";
+    }
+
+    main {
+       padding: 0%;
     }
     .nav--entete {
     display: flex;
